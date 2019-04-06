@@ -2388,7 +2388,7 @@ input[type="radio"]+label:before {
 }
 
 .image img {
-	border-radius: 4px;
+
 	display: block;
 }
 
@@ -3377,4 +3377,13 @@ body.is-menu-visible #menu .close {
 	#wrapper>*>.inner {
 		padding: 0 1.25em;
 	}
+}
+
+/**** custom styles *****/
+.photo {
+	border-radius: 100%;
+	margin-left: auto;
+	margin-right: auto;
+	max-width: 45%;
+	min-width: 15%;
 }
