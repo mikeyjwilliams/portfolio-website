@@ -2432,6 +2432,13 @@ input[type="radio"]+label:before {
 .image.main img {
 	width: 100%;
 }
+/*** custom style begin ****/
+.image.half {
+	display: block;
+	margin: 0 auto 3em auto;
+	width: 50%;
+}
+/** custom style end ***/
 
 @media screen and (max-width: 736px) {
 	.image.main {
